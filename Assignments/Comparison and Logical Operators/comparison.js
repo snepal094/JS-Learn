@@ -40,8 +40,9 @@ console.log("Dinesh===dinesh is ", "Dinesh" === "dinesh");
 //Reason: ASCII value is used in string-string comparison
 
 //? 8. Explain NaN(Not a Number)
-/*NaN is an undefined data type in JS. 
+/*NaN represents a value that is not a valid number. 
 It is still considered a numeric value, i.e. typeof NaN= number
+It is a special value of the number data type.
 It is not equal to any value, including itself. (NaN==NaN is false)
 Common ways it is produced: Math.sqrt(-1), 0/0, Number("abc"), etc.
 */
