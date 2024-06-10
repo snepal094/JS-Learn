@@ -9,7 +9,7 @@ const bookDetail = {
 };
 
 //must have a structure (object) to destructure
-//perk: can directly access properties after destructuring instead od accessing through square brackets or dot operators
+//perk: can directly access properties after destructuring instead of accessing through square brackets or dot operators
 
 //?Destructure:
 //no need to include all properties while destructuring
