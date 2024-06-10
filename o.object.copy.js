@@ -1,6 +1,6 @@
 //object properties
-//Assignment (one.js) (explained in class)
-//? 1. structured data: key-value pair ==> group of primary data types ===
+//Assignment Objects-(one.js) (explained in class)
+//? 1. structured data: key-value pair ==> group of primary data types === complex data type
 
 //?2. encapsulation: hide data, controlled access
 
