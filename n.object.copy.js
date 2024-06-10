@@ -28,7 +28,7 @@ print(student1); //displays the same output as print(student2), which is not exp
 
 //Example 1
 const studentA = { ...student1 }; //syntax= 3 dots
-//const studentA= {studentA}; cause an objects to insert into an object
+//const studentA= {studentA}; causes an object to insert into another object{}
 //new curly bracket= new object has been created
 //spreads the contents of student1 to studentA
 console.log(studentA);
