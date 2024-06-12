@@ -13,6 +13,9 @@ let studentList = ["Saugat", "Shubham", "Suyasha", "Smriti", "Utsarga", "Unik"];
 /*
 const newStudentList = studentList.map((item, index, array) => {
   //3 parameters in order
+  //if you need only item: just put item as an argument
+  //if you need only index: you MUST include item
+  //if you need only array: you MUST include both item and index
   //console.log(item, index, array);
   return "a";
 });
@@ -67,6 +70,7 @@ let newProductList = productList.map((item) => {
   //return newPrice; //don't wanna lose name and id, so return the entire object and not just price
   return {
     ...item, //purano object jasta ko tastai
+    //or=> name: item.name, id: item.id,
     price: newPrice, //replaces old price in item
   };
 });
