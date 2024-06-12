@@ -9,7 +9,7 @@
 // }
 
 //? BUT this dosen't work on arrow functions
-//? i.e. no hosting for functions defined using arrow function
+//? i.e. no hoisting for functions defined using arrow function
 //? dosen't pull up
 // sayHi();
 
