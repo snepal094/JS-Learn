@@ -25,7 +25,7 @@ const arr2 = [4, 5];
 const mergedArray = [...arr1, ...arr2];
 console.log(mergedArray); // Output: [1, 2, 3, 4, 5]
 
-//! Rest Parameter (...)
+//! Rest Operator (...)
 //1. Function Parameters: It allows functions to accept an indefinite number of arguments as an array.
 
 //2. Destructuring: It can be used to capture multiple elements of an array or object into a single variable.
