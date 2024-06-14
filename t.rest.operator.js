@@ -1,5 +1,6 @@
 //? rest operator: ...rest
-//both are represented by ... BUT
+//both are represented by ...
+//?BUT
 //spread: spreads contents
 //rest: collects contents
 
