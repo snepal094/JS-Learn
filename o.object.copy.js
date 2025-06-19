@@ -6,8 +6,8 @@
 
 const obj = {};
 
-Object.defineProperty(obj, "name", {
-  value: "Shubham",
+Object.defineProperty(obj, 'name', {
+  value: 'Shubham',
   enumerable: true, //default: false
   writable: true, //default: false
   configurable: true, //default: false
@@ -22,19 +22,19 @@ console.log(obj.name);
 //? writeable: Determines if the property’s value can be changed.
 //? configurable: Determines if the property can be deleted from the object and if its attributes (enumerable, writable, configurable) can be modified.
 
-//shortcut to select (all of) a specific word in a file and edit: select+ctrlD
+//shortcut to select (all of) a specific word in a file and edit: select+ctrl D
 
 //?3. dynamic structure
 //we can add, edit, update and delete property easily
 
 const laptopDetails = {
-  name: "F15",
-  brand: "Asus",
+  name: 'F15',
+  brand: 'Asus',
   ram: 16, //GB,
   ssd: 512, //GB
 };
 
-let key = "ram";
+let key = 'ram';
 console.log(laptopDetails[key]); //only square brackets can be used here to access members
 
 //Bracket notation allows you to use variables to dynamically access properties of an object.
@@ -50,6 +50,7 @@ console.log(laptopDetails[key]); //only square brackets can be used here to acce
 
 //GK: use the lowest unit of measurement when storing values
 //Try adding 0.1 and 0.2
+console.log(0.1 + 0.2); //? 0.30000000000000004
 /*Reason: every number is converted to binary for calculation
 Precision and Accuracy: Avoids issues with floating-point precision.
 Avoiding Rounding Errors: Ensures exact arithmetic operations.

@@ -1,4 +1,5 @@
-//? in JS, as soon as a function is detected, it is placed at the top of the code
+//? in JS, as soon as a function is detected, it is placed at the top of the code during compilation
+//? the function definition itself is hoisted up
 //? only then does execution start
 //? this dosen't work on C, C++ n all
 
@@ -16,8 +17,6 @@
 // let sayHi = () => {
 //   console.log("Hi");
 // };
-
-//? only definition is hoisted up
 
 //? var ma ni hoisting huncha, but undefined huncha
 //? tei bhayera var use gardainau

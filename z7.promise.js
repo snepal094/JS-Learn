@@ -68,7 +68,7 @@ const promise = new Promise((resolve, reject) => {
     if (randomNumber > 0.5) {
       resolve(randomNumber);
     } else {
-      reject("Too small number");
+      reject('Too small number');
     }
   }, 2000);
 });
@@ -84,33 +84,33 @@ const promise = new Promise((resolve, reject) => {
   */
 
 //* async await
-const getRandomNumber = async () => {
-  try {
-    const result = await promise;
-    console.log(result);
-  } catch (error) {
-    console.log(error, "error");
-  }
-};
+// const getRandomNumber = async () => {
+//   try {
+//     const result = await promise;
+//     console.log(result);
+//   } catch (error) {
+//     console.log(error, "error");
+//   }
+// };
 
 //! await should wrapped by an async function
 //use await in front of task that takes time
 //try catch is used for error handling
 
-console.log("Hello");
+console.log('Hello');
 getRandomNumber();
-console.log("Hi");
+console.log('Hi');
 
 //?real world use case
 const getProductData = async () => {
   try {
-    const res = await fetch("https://fakestoreapi.com/products");
+    const res = await fetch('https://fakestoreapi.com/products');
 
     const data = await res.json();
 
     console.log(data);
   } catch (error) {
-    console.log("Api hit failed");
+    console.log('Api hit failed');
     console.log(error.message);
   }
 };

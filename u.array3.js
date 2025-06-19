@@ -2,7 +2,8 @@
 //map, filter: VI
 //loop based
 
-let studentList = ["Saugat", "Shubham", "Suyasha", "Smriti", "Utsarga", "Unik"];
+let studentList = ['Saugat', 'Shubham', 'Suyasha', 'Smriti', 'Utsarga', 'Unik'];
+console.log(studentList);
 
 //? map
 //returns new array
@@ -10,22 +11,21 @@ let studentList = ["Saugat", "Shubham", "Suyasha", "Smriti", "Utsarga", "Unik"];
 //takes callback function as argument
 //original array length===returned array length
 
-/*
-const newStudentList = studentList.map((item, index, array) => {
+const newStudentList0 = studentList.map((item, index, array) => {
   //3 parameters in order
   //if you need only item: just put item as an argument
   //if you need only index: you MUST include item
   //if you need only array: you MUST include both item and index
   //console.log(item, index, array);
-  return "a";
+  return 'a';
 });
-console.log(newStudentList);
-*/
+console.log(newStudentList0);
 
 //!EXAMPLE 1
 const newStudentList = studentList.map((item, index, array) => {
-  let upperCaseName = item.toUpperCase();
-  return upperCaseName;
+  // let upperCaseName = item.toUpperCase();
+  // return upperCaseName;
+  return item.toUpperCase();
 });
 
 console.log(newStudentList);
@@ -48,17 +48,17 @@ console.log(newPriceList);
 const productList = [
   {
     id: 1,
-    name: "Night Vision Glasses",
+    name: 'Night Vision Glasses',
     price: 5,
   },
   {
     id: 2,
-    name: "Gloves",
+    name: 'Gloves',
     price: 7,
   },
   {
     id: 3,
-    name: "Helmet",
+    name: 'Helmet',
     price: 25,
   },
 ];
@@ -75,4 +75,5 @@ let newProductList = productList.map((item) => {
   };
 });
 
+console.log(productList);
 console.log(newProductList);

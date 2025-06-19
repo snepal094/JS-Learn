@@ -52,9 +52,9 @@ if (a < 0) {
 */
 
 //?TASK: suppose any 3 positive numbers and find the greatest among them
-/*let a = 10;
+let a = 17;
 let b = 16;
-let c = 94;
+let c = 6;
 
 if (a > b && a > c) {
   console.log(`${a} is the greatest.`);
@@ -63,7 +63,6 @@ if (a > b && a > c) {
 } else {
   console.log(`${c} is the greatest.`);
 }
-*/
 
 //? switch
 //best for mcq

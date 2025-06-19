@@ -6,7 +6,7 @@
 //all values except falsy values
 
 let condition1 = 0;
-condition1 ? console.log("truthy") : console.log("falsy");
+condition1 ? console.log('truthy') : console.log('falsy');
 
 let condition2 = 100;
-condition2 ? console.log("truthy") : console.log("falsy");
+condition2 ? console.log('truthy') : console.log('falsy');

@@ -1,13 +1,11 @@
 //scope= execution context
 //scope: {}
 
-/*
-{
-    let x=2;
-}
-console.log(x);
+// {
+//   let x = 2;
+// }
+// console.log(x);
 //dosen't print, cuz x is defined inside another scope, x isn't defined where clg can access it
-*/
 
 //parent<-->child
 
@@ -21,7 +19,7 @@ console.log(x);
 {
   let x = 9;
   {
-    //let x = 7;
+    // let x = 7;
     {
       console.log(x);
     }

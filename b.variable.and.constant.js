@@ -2,7 +2,7 @@
 //? to change the color of comment
 //look up better comments extension doc for other colors, highlights, etc.
 
-let studentName = "Suyasha Nepal";
+let studentName = 'Suyasha Nepal';
 console.log(studentName);
 
 /*
@@ -15,7 +15,7 @@ naming convention:
 */
 
 let _ = 5;
-let $ = "abcd";
+let $ = 'abcd';
 console.log(_);
 console.log($);
 

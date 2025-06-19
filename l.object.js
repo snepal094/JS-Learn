@@ -3,7 +3,6 @@
 
 //object= key-value pair
 //key==property==field
-//organized collection of primary data types
 //key-value pairs of one object are stored close to each other
 //uniquely stores key-value pairs in different memory units, even if they might have the same value
 //if an object isn't used throughout the program, the space occupied by it is discarded due to its garbage collection mechanism.
@@ -21,12 +20,12 @@ console.log(obj1 === obj2);
 
 let student1 = {
   //student1= main object
-  firstName: "Rohan",
-  lastName: "Nepal",
+  firstName: 'Rohan',
+  lastName: 'Nepal',
   isGraduated: true,
   address: {
-    permanentAddress: "Baneshwor", //address= nested object
-    temporaryAddress: "Sydney",
+    permanentAddress: 'Baneshwor', //address= nested object
+    temporaryAddress: 'Sydney',
   },
 };
 
@@ -47,11 +46,11 @@ console.log(student1.address.permanentAddress);
 
 //square bracket
 //must convert key to string
-console.log(student1["isGraduated"]);
-console.log(student1["address"]["temporaryAddress"]);
+console.log(student1['isGraduated']);
+console.log(student1['address']['temporaryAddress']);
 //can also do:
-console.log(student1["address"].temporaryAddress);
-console.log(student1.address["temporaryAddress"]);
+console.log(student1['address'].temporaryAddress);
+console.log(student1.address['temporaryAddress']);
 
 //?CRUD
 //C: Create/Add
@@ -65,19 +64,19 @@ console.log(student1.address["temporaryAddress"]);
 //order of key-value pairs dosen't matter
 //update firstName of student1 from Rohan to Roshna
 //use = (assignment operator) and not :
-student1.firstName = "Suyasha";
+student1.firstName = 'Suyasha';
 console.log(student1.firstName);
 
 student1.age = 22;
 console.log(student1);
 
-student1["address"]["permanentAddress"] = "Chabahil";
-console.log(student1["address"]["permanentAddress"]);
+student1['address']['permanentAddress'] = 'Chabahil';
+console.log(student1['address']['permanentAddress']);
 console.log(student1);
 
 let nationDetail = {
-  name: "Nepal",
-  population: "3 crore",
+  name: 'Nepal',
+  population: '3 crore',
   perCapita: 1400,
 };
 
@@ -86,14 +85,14 @@ console.log(nationDetail);
 delete nationDetail.name; //frees the memory unit occupied by name: "Nepal"
 //delete nationalDetail["name"]
 console.log(nationDetail);
-//nationDetail.name= undefined ==> memory space is also occupied and value is not inserted
+//if you do nationDetail.name= undefined, memory space is also occupied and value is not inserted
 
 const cupDetails = {
-  name: "Water Cup",
-  brand: "Serve Well",
-  color: "Pink",
-  color: "Green",
-  name: "Tea Cup",
+  name: 'Water Cup',
+  brand: 'Serve Well',
+  color: 'Pink',
+  color: 'Green',
+  name: 'Tea Cup',
 };
 
 console.log(cupDetails);

@@ -8,6 +8,7 @@
 const getSum = (a, b, ...otherValues) => {
   //console.log(otherValues);
   const total = otherValues.reduce((total, item) => {
+    // see x.array6.js for reduce
     total = total + item;
     return total;
   }, 0);
