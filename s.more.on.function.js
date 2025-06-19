@@ -11,7 +11,7 @@ const getSum = (x, y, callbackfunc) => {
 };
 
 getSum(5, 7, (value) => {
-  console.log("Sum= ", value);
+  console.log('Sum= ', value);
 });
 
 //? function returning function
@@ -39,3 +39,5 @@ console.log(sum);
 
 const sum1 = makeAdder(25)(5); //makeAdder(25) returns doSum()==> doSum(5)
 console.log(sum1);
+
+// console.log(makeAdder(6)); //throws error
